@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42A0E675C43E0F3D8D1B4179 /* libPods-buton_xcode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C424A73ECF13CCF13A50A85E /* libPods-buton_xcode.a */; };
 		A5B89BB62BD63B1E00DAB8D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B89BB52BD63B1E00DAB8D0 /* AppDelegate.swift */; };
 		A5B89BB82BD63B1E00DAB8D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B89BB72BD63B1E00DAB8D0 /* SceneDelegate.swift */; };
 		A5B89BBA2BD63B1E00DAB8D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B89BB92BD63B1E00DAB8D0 /* ViewController.swift */; };
@@ -17,6 +18,53 @@
 		A5B89BD72BD63B2100DAB8D0 /* buton_xcodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B89BD62BD63B2100DAB8D0 /* buton_xcodeUITests.swift */; };
 		A5B89BD92BD63B2100DAB8D0 /* buton_xcodeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B89BD82BD63B2100DAB8D0 /* buton_xcodeUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		A5AEAE952BD665B50085BE12 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = pattern.proxy;
+			inputFiles = (
+			);
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+		A5AEAE962BD665B60085BE12 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = pattern.proxy;
+			inputFiles = (
+			);
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+		A5AEAE972BD665B60085BE12 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = pattern.proxy;
+			inputFiles = (
+			);
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+		A5AEAE982BD665B60085BE12 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = pattern.proxy;
+			inputFiles = (
+			);
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+/* End PBXBuildRule section */
 
 /* Begin PBXContainerItemProxy section */
 		A5B89BC92BD63B2100DAB8D0 /* PBXContainerItemProxy */ = {
@@ -36,6 +84,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		486802469DB6EE31E6B70A15 /* Pods-buton_xcode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-buton_xcode.debug.xcconfig"; path = "Target Support Files/Pods-buton_xcode/Pods-buton_xcode.debug.xcconfig"; sourceTree = "<group>"; };
+		6FE2EBBC248A6ABA21EEAFE3 /* Pods-buton_xcode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-buton_xcode.release.xcconfig"; path = "Target Support Files/Pods-buton_xcode/Pods-buton_xcode.release.xcconfig"; sourceTree = "<group>"; };
 		A5B89BB22BD63B1E00DAB8D0 /* buton_xcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = buton_xcode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5B89BB52BD63B1E00DAB8D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5B89BB72BD63B1E00DAB8D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,13 +99,15 @@
 		A5B89BD22BD63B2100DAB8D0 /* buton_xcodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = buton_xcodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5B89BD62BD63B2100DAB8D0 /* buton_xcodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buton_xcodeUITests.swift; sourceTree = "<group>"; };
 		A5B89BD82BD63B2100DAB8D0 /* buton_xcodeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buton_xcodeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C424A73ECF13CCF13A50A85E /* libPods-buton_xcode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-buton_xcode.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A5B89BAF2BD63B1E00DAB8D0 /* Frameworks */ = {
+		1B92B7F390C4D8E68C8CFC4C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42A0E675C43E0F3D8D1B4179 /* libPods-buton_xcode.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +128,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4175C23DD1706CF4EA8B98ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				486802469DB6EE31E6B70A15 /* Pods-buton_xcode.debug.xcconfig */,
+				6FE2EBBC248A6ABA21EEAFE3 /* Pods-buton_xcode.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		56B84C2F8E89B10CA9171899 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C424A73ECF13CCF13A50A85E /* libPods-buton_xcode.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A5B89BA92BD63B1E00DAB8D0 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +152,8 @@
 				A5B89BCB2BD63B2100DAB8D0 /* buton_xcodeTests */,
 				A5B89BD52BD63B2100DAB8D0 /* buton_xcodeUITests */,
 				A5B89BB32BD63B1E00DAB8D0 /* Products */,
+				4175C23DD1706CF4EA8B98ED /* Pods */,
+				56B84C2F8E89B10CA9171899 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,11 +205,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A5B89BDC2BD63B2100DAB8D0 /* Build configuration list for PBXNativeTarget "buton_xcode" */;
 			buildPhases = (
+				59B216E9FE4D730412B2E6CF /* [CP] Check Pods Manifest.lock */,
+				6379D8430052600C98315F24 /* [CP-User] Run Flutter Build test_module_flutter Script */,
 				A5B89BAE2BD63B1E00DAB8D0 /* Sources */,
-				A5B89BAF2BD63B1E00DAB8D0 /* Frameworks */,
 				A5B89BB02BD63B1E00DAB8D0 /* Resources */,
+				953C1D1523D445C5A94654E9 /* [CP-User] Embed Flutter Build test_module_flutter Script */,
+				A5AEAE992BD665C00085BE12 /* ShellScript */,
+				1B92B7F390C4D8E68C8CFC4C /* Frameworks */,
 			);
 			buildRules = (
+				A5AEAE962BD665B60085BE12 /* PBXBuildRule */,
+				A5AEAE972BD665B60085BE12 /* PBXBuildRule */,
+				A5AEAE982BD665B60085BE12 /* PBXBuildRule */,
+				A5AEAE952BD665B50085BE12 /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
@@ -253,6 +332,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		59B216E9FE4D730412B2E6CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-buton_xcode-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6379D8430052600C98315F24 /* [CP-User] Run Flutter Build test_module_flutter Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] Run Flutter Build test_module_flutter Script";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../test_module_flutter/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build";
+		};
+		953C1D1523D445C5A94654E9 /* [CP-User] Embed Flutter Build test_module_flutter Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			name = "[CP-User] Embed Flutter Build test_module_flutter Script";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../test_module_flutter/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh embed_and_thin";
+		};
+		A5AEAE992BD665C00085BE12 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "
+";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A5B89BAE2BD63B1E00DAB8D0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -318,6 +460,7 @@
 /* Begin XCBuildConfiguration section */
 		A5B89BDA2BD63B2100DAB8D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 486802469DB6EE31E6B70A15 /* Pods-buton_xcode.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -423,6 +566,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -432,12 +576,23 @@
 		};
 		A5B89BDD2BD63B2100DAB8D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 486802469DB6EE31E6B70A15 /* Pods-buton_xcode.debug.xcconfig */;
 			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = NO;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4MKD33ZWGB;
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/FlutterPluginRegistrant\"",
+					"\"${PODS_ROOT}/Headers/Public/Flutter\"",
+				);
 				INFOPLIST_FILE = buton_xcode/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -448,9 +603,15 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FlutterPluginRegistrant\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Flutter\"",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.erainfotechbd.buton-xcode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -459,12 +620,23 @@
 		};
 		A5B89BDE2BD63B2100DAB8D0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FE2EBBC248A6ABA21EEAFE3 /* Pods-buton_xcode.release.xcconfig */;
 			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = NO;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4MKD33ZWGB;
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/FlutterPluginRegistrant\"",
+					"\"${PODS_ROOT}/Headers/Public/Flutter\"",
+				);
 				INFOPLIST_FILE = buton_xcode/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -475,9 +647,15 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FlutterPluginRegistrant\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Flutter\"",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.erainfotechbd.buton-xcode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -566,7 +744,7 @@
 				A5B89BDB2BD63B2100DAB8D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		A5B89BDC2BD63B2100DAB8D0 /* Build configuration list for PBXNativeTarget "buton_xcode" */ = {
 			isa = XCConfigurationList;
@@ -575,7 +753,7 @@
 				A5B89BDE2BD63B2100DAB8D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		A5B89BDF2BD63B2100DAB8D0 /* Build configuration list for PBXNativeTarget "buton_xcodeTests" */ = {
 			isa = XCConfigurationList;
@@ -584,7 +762,7 @@
 				A5B89BE12BD63B2100DAB8D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		A5B89BE22BD63B2100DAB8D0 /* Build configuration list for PBXNativeTarget "buton_xcodeUITests" */ = {
 			isa = XCConfigurationList;
@@ -593,7 +771,7 @@
 				A5B89BE42BD63B2100DAB8D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
